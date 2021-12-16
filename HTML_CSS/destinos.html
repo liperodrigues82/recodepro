@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos - RecodeTour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styledestinos.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="destinos.html">Destinos</a>
+                </li>
+                <li>
+                    <a href="promocoes.html">Promoções</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 
+            INÍCIO RESERVA DE PASSAGENS
+            / CSS EM STYLEDESTINOS.CSS
+        -->
+        <section class="painel4">
+            <div class="divTicket">
+                <div class="divTicket-content">
+                    <div>
+                        <input type="radio" id="idaevolta" name="drone" value="idaevolta">
+                        <label for="idaevolta">Ida e volta</label>
+
+                        <input type="radio" id="ida" name="drone" value="ida">
+                        <label for="ida">Só ida</label>
+                    </div>
+
+                    <div>
+                        <label for="selectClasse"> Classe: </label>
+                        <select name="classes" id="selectClasse">
+                            <option value="">----- Escolha -----</option>
+                            <option value="economica">Econômica</option>
+                            <option value="ecoPremium">Econômica Premium</option>
+                            <option value="executiva">Executiva</option>
+                            <option value="primClasse">Primeira Classe</option>
+                        </select>
+
+                    </div>
+                    <label for="passageiros" id="passageiros"> Passageiros: </label>
+                    <input type="number" name="passageiros" id="passageiros">
+                    <div>
+
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <label for="site-search">Origem</label>
+                        <br>
+                        <input type="search" id="site-search" name="origem">
+                    </div>
+
+                    <div>
+                        <label for="site-search">Destino</label>
+                        <br>
+                        <input type="search" id="site-search" name="destino">
+                    </div>
+
+                    <div>
+                        <label for="">Data de ida</label>
+                        <br>
+                        <input type="datetime-local" name="" id="data">
+                    </div>
+                    <div>
+                        <label for="">Data de volta</label>
+                        <br>
+                        <input type="datetime-local" name="" id="data">
+                    </div>
+                    <br>
+                    <input type="button" id="btn-pesquisar" value="Pesquisar">
+                </div>
+            </div>
+        </section>
+        <!-- FIM RESERVA DE PASSAGENS -->
+
+        <section class="painel1">
+            <!-- CSS PAINEL2 EM STYLE.CSS -->
+            <div class="painel2">
+                <!-- CLASSES ABAIXO EM STYLEDESTINOS.CSS -->
+                <div class="boxImgs">
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/sp-sp.jpg" alt="São Paulo - Brasil">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/trancoso-bahia.jpg" alt="Trancoso - Brasil">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/lisboa.jpg" alt="Lisboa - Portugal">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/cancun.png" alt="Cancún - México">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/santorini.jpg" alt="Santorini - Grécia">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/cidade-do-cabo.jpg" alt="Cape Town - África do Sul">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/bariloche.jpg" alt="Bariloche - Argentina">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/amsterdam.jpg" alt="Amsterdam - Holanda">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/buenos-aires.jpg" alt="Buenos Aires - Argentina">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/joao-pessoa.jpg" alt="João Pessoa - Brasil">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/machu-picchu.jpg" alt="Machu Picchu - Peru">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/new-york.jpg" alt="Nova Iorque - Estados Unidos">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/milao.jpg" alt="Milão - Itália">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/rio-de-janeiro.jpg" alt="Rio de Janeiro - Brasil">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/paris.jpg" alt="Paris - França">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/moscow.jpg" alt="Moscou - Rússia">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/bangkok.jpg" alt="Bangkok - Tailândia">
+                    </div>
+                    <div class="imgsDestinos">
+                        <img src="imgs/destinations/vancouver.jpg" alt="Vancouver - Canadá">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- CSS EM STYLE.CSS -->
+    <footer>
+        <p>Meios de pagamento</p>
+        <div class="formasPag">
+            <img src="imgs/payment/Visa.png">
+            <img src="imgs/payment/Visa Electron.png">
+            <img src="imgs/payment/MasterCard.png">
+            <img src="imgs/payment/Maestro.png">
+            <img src="imgs/payment/American Express.png">
+            <img src="imgs/payment/PayPal.png">
+        </div>
+        <br>
+        <br>
+        <p>RecodeTour &copy; 2021 | Desenvolvido por <a href="https://www.linkedin.com/in/liperodrigues82/"
+                target="_blank">Felipe
+                Rodrigues</a></p>
+    </footer>
+
+</body>
+
+</html>

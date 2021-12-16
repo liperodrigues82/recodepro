@@ -1,0 +1,38 @@
+.cards span {
+    text-decoration: line-through;
+}
+
+.cards p {
+    font-size: 10px;
+}
+
+.cards h3 {
+    color: orangered;
+}
+
+/* CONFIGS GERAIS DE .CARDS EM STYLE.CSS */
+
+.btnComprar {
+    font-family: 'Verdana';
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e8c84;
+    color: #fff;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.btnComprar:hover {
+    background-color: #0f2d40;
+    color: #fff;
+}
+
+#cupom {
+    min-width: 350px;
+    max-width: 700px;
+    padding: 20px;
+}

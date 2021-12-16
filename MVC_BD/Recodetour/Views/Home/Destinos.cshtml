@@ -1,0 +1,126 @@
+﻿@{
+ViewData["Title"] = "Destinos";
+}
+
+<div class="container">
+    <div class="divTicket">
+        <div class="divTicket-content">
+            <div class="form-check">
+                <input type="radio" id="idaevolta" name="drone" value="idaevolta">
+                <label for="idaevolta" class="form-label">Ida e volta</label>
+
+                <input type="radio" id="ida" name="drone" value="ida">
+                <label for="ida" class="form-label">Só ida</label>
+            </div>
+
+            <div>
+                <label for="selectClasse" class="form-label"> Classe: </label>
+                <select class="form-select" id="selectClasse" required>
+                    <option selected disabled value="">--- Escolha ---</option>
+                    <option>Econômica</option>
+                    <option>Econômica Premium</option>
+                    <option>Executiva</option>
+                    <option>Primeira Classe</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="selectClasse" class="form-label"> Passageiros: </label>
+                <select class="form-select" id="selectClasse" required>
+                    <option selected disabled value="">0</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="site-search" class="form-label">Origem</label>
+                <input type="search" class="form-control" id="site-search" name="origem">
+            </div>
+
+            <div>
+                <label for="site-search" class="form-label">Destino</label>
+                <input type="search" class="form-control" id="site-search" name="destino">
+            </div>
+
+            <div>
+                <label for="data" class="form-label">Data de ida</label>
+                <br>
+                <input type="datetime-local" name="" id="dataida">
+            </div>
+            <div>
+                <label for="datavolta" class="form-label">Data de volta</label>
+                <br>
+                <input type="datetime-local" name="" id="datavolta">
+            </div>
+            <br />
+            <br />
+            <input type="button" class="btn btn-primary" value="Pesquisar">
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid painel2">
+    <div class="boxImgs">
+        <div class="imgsDestinos">
+            <img src="/images/destinations/sp-sp.jpg" alt="São Paulo - Brasil">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/trancoso-bahia.jpg" alt="Trancoso - Brasil">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/lisboa.jpg" alt="Lisboa - Portugal">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/cancun.png" alt="Cancún - México">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/santorini.jpg" alt="Santorini - Grécia">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/cidade-do-cabo.jpg" alt="Cape Town - África do Sul">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/bariloche.jpg" alt="Bariloche - Argentina">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/amsterdam.jpg" alt="Amsterdam - Holanda">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/buenos-aires.jpg" alt="Buenos Aires - Argentina">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/joao-pessoa.jpg" alt="João Pessoa - Brasil">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/machu-picchu.jpg" alt="Machu Picchu - Peru">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/new-york.jpg" alt="Nova Iorque - Estados Unidos">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/milao.jpg" alt="Milão - Itália">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/rio-de-janeiro.jpg" alt="Rio de Janeiro - Brasil">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/paris.jpg" alt="Paris - França">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/moscow.jpg" alt="Moscou - Rússia">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/bangkok.jpg" alt="Bangkok - Tailândia">
+        </div>
+        <div class="imgsDestinos">
+            <img src="/images/destinations/vancouver.jpg" alt="Vancouver - Canadá">
+        </div>
+    </div>
+</div>

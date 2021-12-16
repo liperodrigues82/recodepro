@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f35715a4-5433-4bff-b080-4499f36ea260": {
+      "ProjectGuid": "f35715a4-5433-4bff-b080-4499f36ea260",
+      "DisplayName": "Recodetour",
+      "ColorIndex": 0
+    },
+    "3fc6db82-450c-4913-b80c-0bd14afc3d07": {
+      "ProjectGuid": "3fc6db82-450c-4913-b80c-0bd14afc3d07",
+      "DisplayName": "Recodetour",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

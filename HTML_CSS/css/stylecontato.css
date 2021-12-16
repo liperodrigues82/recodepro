@@ -1,0 +1,35 @@
+.divContato {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 400px;
+    width: 400px;   
+    margin: 100px 150px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.158);
+}
+
+.divContato a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.painelContato {
+    text-align: center;
+}
+
+.inputsForm {
+    background-color: #d0e4e3;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0px;
+}
+
+.btn:hover {
+    border: 1px solid #1B65A6;
+    color: #1B65A6;
+    padding: 19px;
+}
