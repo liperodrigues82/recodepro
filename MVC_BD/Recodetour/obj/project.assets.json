@@ -8481,11 +8481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AtividadeMod3\\MVC_BD\\Recodetour\\Recodetour.csproj",
+      "projectUniqueName": "C:\\AtividadeModulo3\\MVC_BD\\Recodetour\\Recodetour.csproj",
       "projectName": "Recodetour",
-      "projectPath": "C:\\AtividadeMod3\\MVC_BD\\Recodetour\\Recodetour.csproj",
+      "projectPath": "C:\\AtividadeModulo3\\MVC_BD\\Recodetour\\Recodetour.csproj",
       "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-      "outputPath": "C:\\AtividadeMod3\\MVC_BD\\Recodetour\\obj\\",
+      "outputPath": "C:\\AtividadeModulo3\\MVC_BD\\Recodetour\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8549,6 +8549,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

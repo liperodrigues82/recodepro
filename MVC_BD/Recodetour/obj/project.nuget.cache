@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ZGhaLFuEjDyk3EEI+sqJJSxk92AkB9HaJml9PZAlSbDCWpuXSbIe7ZefdsL/ewBGAc/bs8ETOIw3XLhH73IQg==",
+  "dgSpecHash": "9+WvNefolMYapIXxsZGIVQF/xHbEpfUiF6+4nfp2EhZU8U1CxIur4jzY9s1jSExsjCAYqPnCGOweClYNUN2nGg==",
   "success": true,
-  "projectFilePath": "C:\\AtividadeMod3\\MVC_BD\\Recodetour\\Recodetour.csproj",
+  "projectFilePath": "C:\\AtividadeModulo3\\MVC_BD\\Recodetour\\Recodetour.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remakker\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -162,7 +162,8 @@
     "C:\\Users\\Remakker\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Remakker\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Remakker\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Remakker\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }
